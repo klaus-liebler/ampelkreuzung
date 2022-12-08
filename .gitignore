@@ -1,0 +1,4 @@
+
+*.zip
+pcb/jlcpcb/gerber
+pcb/jlcpcb/assembly
