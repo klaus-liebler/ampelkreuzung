@@ -2,3 +2,4 @@
 *.zip
 pcb/jlcpcb/gerber
 pcb/jlcpcb/assembly
+firmware/build
