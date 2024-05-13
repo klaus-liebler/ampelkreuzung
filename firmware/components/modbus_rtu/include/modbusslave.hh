@@ -125,6 +125,7 @@ namespace modbus
                 callback(15, coilStart, coilCount);
             return SendPartialCopyOKMessageWithNewCRCBack(tx_buf, tx_size, 6);
         }
+        
         //Write Holding Registers
         ModbusMessageParsingResult processFC16(uint8_t *tx_buf, size_t &tx_size)
         {
